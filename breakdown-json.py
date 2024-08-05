@@ -24,12 +24,12 @@ The world is full of beauty.
   "en": "The world is full of beauty.",
   "fr": "Le monde est plein de beauté.",
   "breakdown": [
-    { "en": "The", "fr": "Le", "lemma": "le", "part": "indefinite article", "description": "masculine singular" },
-    { "en": "world", "fr": "monde", "lemma": "monde", "part": "noun", "description": "masculine singular" },
-    { "en": "is", "fr": "est", "lemma": "être", "part": "verb", "description": "third person singular present" },
-    { "en": "full", "fr": "plein", "lemma": "plein", "part": "adjective", "description": "masculine singular" },
-    { "en": "of", "fr": "de", "lemma": "de", "part": "preposition", "description": "" },
-    { "en": "beauty", "fr": "beauté", "lemma": "beauté", "part": "noun", "description": "feminine singular" }
+    { "fr": "Le", "meaning": "the", "lemma": "le", "part": "indefinite article", "description": "masculine singular" },
+    { "fr": "monde", "meaning": "world", "lemma": "monde", "part": "noun", "description": "masculine singular" },
+    { "fr": "est", "meaning": "is", "lemma": "être", "part": "verb", "description": "third person singular present indicative" },
+    { "fr": "plein", "meaning": "full", "lemma": "plein", "part": "adjective", "description": "masculine singular" },
+    { "fr": "de", "meaning": "of", "lemma": "de", "part": "preposition", "description": "" },
+    { "fr": "beauté", "meaning": "beauty", "lemma": "beauté", "part": "noun", "description": "feminine singular" }
   ]
 }
 ```

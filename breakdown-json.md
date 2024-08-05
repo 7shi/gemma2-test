@@ -5,58 +5,52 @@
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrire", "lemma": "décrire", "part": "verb", "description": "past tense of describe, active voice" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "possessive pronoun", "description": "masculine singular" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préféré", "part": "adjective", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "masculine singular" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunctive adverb", "description": "" },
-    { "en": "explain", "fr": "expliquer", "lemma": "explication", "part": "verb", "description": "present tense of explain, active voice" },
-    { "en": "why", "fr": "pourquoi", "lemma": "quelques-unes", "part": "pronoun", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "pronoun", "description": "feminine singular" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "present tense of like, active voice" },
-    { "en": "it", "fr": "il", "lemma": "il", "part": "pronoun", "description": "" }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "active voice, present tense, singular, indicative" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "adjective", "description": "feminine singular possessive" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "masculine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunctive adverb", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "active voice, present tense, singular, indicative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "adjective", "description": "masculine plural" },
+    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "conjugation for 'like' in present tense, third person singular" } 
   ]
 }
 ``` 
 
 
-**Explanation:**
 
-* **The sentence structure is broken down into its parts:** We first identify the verb and what it's doing ("describe"), then the subject (your), and then what you're describing ("season").
-* **Nouns are identified as well:** "season," "favorite" and other nouns.
-*  **Adjectives and pronouns** are also part of the sentence. 
+**Explanation of the translation:**
 
+* **The translation:** The French sentence translates directly into English using a natural phrasing. 
 
 
-Let me know if you need help with any more translations! 😊 
-
+Let me know if you have any other phrases you would like me to translate! 
 ## 2
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrivez", "lemma": "décrire", "part": "verb", "description": "third person singular present, indicating the action of describing." },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "pronoun", "description": "possessive pronoun" },
-    { "en": "favorite", "fr": "favoriete", "lemma": "favorable", "part": "adjective", "description": "preferred, personal liking" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "noun, specific time period of year" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "coordinating conjunction", "description": "connection between two sentences" },
-    { "en": "explain", "fr": "expliquez", "lemma": "expliquer", "part": "verb", "description": "third person singular present, indicating the action of explaining." },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "reasoning" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "pronoun", "description": "possessive pronoun" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "third person singular present, indicating a preference or like" }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "third person singular present indicative"},
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "pronoun possessive", "description": "" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "masculine singular" }, 
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "third person singular present indicative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "Pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun personal", "description": "singular" },
+    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "third person singular present indicative"},
   ]
 }
 ``` 
 
+**Explanation:** 
 
-**Explanation:**
+* **Subject and Verb:** The sentence structure begins with the pronoun "votre" followed by "décrivez" (describe), indicating a subject-verb agreement.
+* **Object of Description:** The object of the verb is "saison," which corresponds to your favorite season.
+* **Reasoning:**  The phrase "expliquez pourquoi vous aimez" requires you to explain why you like your preferred season. 
 
-* **Breakdown by sentence:** The JSON output breaks down each word and its corresponding grammatical role in the sentence.
-* **Word meaning**: Each word is explained in French (with possible nuances depending on context). 
 
-
-Let me know if you'd like to explore translations of other sentences!  
+Let me know if you'd like help with any other translations! 😊 
 
 ## 3
 ```json
@@ -64,29 +58,27 @@ Let me know if you'd like to explore translations of other sentences!
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrire", "lemma": "décrire", "part": "verb", "description": "conjugation in the present tense" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "possessive adjective", "description": "" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préféré", "part": "adjective", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "masculine plural" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "preposition", "description": "" },
-    { "en": "explain", "fr": "expliquer", "lemma": "expliquer", "part": "verb", "description": "conjugation in the present tense" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "possessive pronoun", "description": "" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "conjugation in the present tense" } 
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "masculine singular, present tense" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "adjective", "description": "possessing" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "masculine singular, present tense" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "singular, second person" },
+    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "present tense, singular, second person" }
   ]
 }
-```
-
+``` 
 
 
 **Explanation:**
 
-* **Structure and Organization:** The translation follows a direct structural representation of the English sentence. 
-* **Vocabulary Selection:** Common French equivalents are used for words like "describe," "favorite," etc. 
-* **Grammatical Considerations:** Verbs in the present tense are used for their standard, everyday meaning in the translation.  
-* **Clarity and Conciseness:** The emphasis on the direct request to describe a favorite season is maintained while maintaining clear grammatical structure. 
+* **French sentence structure**: The French sentence follows a simple subject-verb-object structure.
+* **Vocabulary breakdown:** Each word and its grammatical role is described to show the meaning of the phrase.
+* **Conjugation:** The conjugation for the verbs is included to provide context for their usage in the sentence. 
 
 
+This JSON output provides a clear understanding of how each word contributes to forming the complete French sentence.  
 # gemma2:9b-instruct-q4_K_M
 ## 1
 ```json
@@ -94,20 +86,19 @@ Let me know if you'd like to explore translations of other sentences!
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrivez", "lemma": "décrire", "part": "verb", "description": "infinitive" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "possessive adjective", "description": "singular, 3rd person" },
-    { "en": "favorite", "fr": "préféré", "lemma": "préféré", "part": "adjective", "description": "masculine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "feminine singular" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquez", "lemma": "expliquer", "part": "verb", "description": "second person plural present" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "pronoun", "description": "second person plural" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "second person plural present" },
-    { "en": "it", "fr": "cela", "lemma": "ce", "part": "pronoun", "description": "third person singular, neuter" }
+    { "fr": "Décrivez", "meaning": "Describe", "lemma": "décrire", "part": "verb", "description": "infinitive" },
+    { "fr": "votre", "meaning": "your", "lemma": "vôtre", "part": "possessive adjective", "description": "masculine singular" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préféérée", "meaning": "favorite", "lemma": "préférer", "part": "adjective", "description": "feminine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "formal/informal" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "present indicative, informal/familiar" } 
   ]
 }
-```
 
+``` 
 
 
 
@@ -118,79 +109,72 @@ Let me know if you'd like to explore translations of other sentences!
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
     {
-      "en": "Describe", 
       "fr": "Décrivez",
+      "meaning": "describe",
       "lemma": "décrire",
       "part": "verb",
       "description": "infinitive"
     },
     {
-      "en": "your",
       "fr": "votre",
-      "lemma": "votre",
-      "part": "possessive adjective",
-      "description": "2nd person singular, masculine/feminine"
+      "meaning": "your",
+      "lemma": "vous",
+      "part": "pronoun",
+      "description": "possessive adjective, singular, 2nd person"
     },
     {
-      "en": "favorite",
-      "fr": "préféré(e)",
-      "lemma": "préféré", 
-      "part": "adjective",
-      "description": "masculine/feminine, agreeing with the noun 'saison'"
-    },
-    {
-      "en": "season",
       "fr": "saison",
+      "meaning": "season",
       "lemma": "saison",
       "part": "noun",
       "description": "feminine singular"
     },
     {
-      "en": "and",
+      "fr": "préférée",
+      "meaning": "favorite",
+      "lemma": "préféré",
+      "part": "adjective",
+      "description": "feminine singular, past participle used as adjective"
+    },
+    {
       "fr": "et",
+      "meaning": "and",
       "lemma": "et",
       "part": "conjunction",
       "description": ""
     },
     {
-      "en": "explain",
       "fr": "expliquez",
+      "meaning": "explain",
       "lemma": "expliquer",
       "part": "verb",
-      "description": "2nd person singular, present indicative"
+      "description": "infinitive"
     },
     {
-      "en": "why",
       "fr": "pourquoi",
+      "meaning": "why",
       "lemma": "pourquoi",
       "part": "adverb",
       "description": ""
     },
     {
-      "en": "you",
       "fr": "vous",
+      "meaning": "you",
       "lemma": "vous",
       "part": "pronoun",
-      "description": "2nd person singular, informal"
+      "description": "2nd person plural pronoun"
     },
     {
-      "en": "like", 
-      "fr": "aimez",
+      "fr": "l'aimez",
+      "meaning": "like it",
       "lemma": "aimer",
       "part": "verb",
-      "description": "2nd person singular, present indicative"
-    },
-    {
-      "en": "it",
-      "fr": "cela",
-      "lemma": "celui", 
-      "part": "pronoun",
-      "description": "3rd person singular, neuter"
+      "description": "present tense, 2nd person singular"
     }
   ]
 }
-
 ```
+
 
 
 
@@ -200,41 +184,50 @@ Let me know if you'd like to explore translations of other sentences!
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrivez", "lemma": "décrire", "part": "verb", "description": "infinitive" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "possessive adjective", "description": "plural" },
-    { "en": "favorite", "fr": "préféré(e)", "lemma": "préféré", "part": "adjective", "description": "masculine/feminine singular, can agree with noun" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "feminine singular" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquez", "lemma": "expliquer", "part": "verb", "description": "second person plural present" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "pronoun", "description": "second person plural" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "second person plural present" },
-    { "en": "it", "fr": "le/la", "lemma": "il/elle", "part": "pronoun", "description": "masculine/feminine singular" }
+    { "fr": "Décrivez", "meaning": "Describe", "lemma": "décrire", "part": "verb", "description": "infinitive" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": "feminine singular" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préféré", "meaning": "favorite", "lemma": "préférer", "part": "adjective", "description": "masculine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "formal singular" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "present subjunctive" } 
   ]
 }
-``` 
+```
 
 
 
 
-Let me know if you'd like me to translate any other sentences!
 # llama3.1:8b-instruct-q4_K_M
 ## 1
+Here is the translation, breakdown, and output in JSON:
+
+**Translation:** Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
+
+**Breakdown:**
+
+1. **Describe**: Traduction : "Décrire" ou "Expliquer"
+2. **your**: Traduction : "votre" (possessif)
+3. **favorite season**: Traduction : "saison préférée" (nom masculin)
+4. **and**: Traduction : "et" (conjonction)
+5. **explain why you like it**: Traduction : "expliquer pourquoi vous l'aimez" (infinitif avec pourquoi)
+
+**JSON Output:**
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrivez", "lemma": "décrire", "part": "verb", "description": "imperative singular" },
-    { "en": "your", "fr": "votre", "lemma": "ton, ta, vos, vos", "part": "adjective", "description": "" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préférence", "part": "noun", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquez", "lemma": "expliquer", "part": "verb", "description": "imperative singular" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "tu, vous", "part": "pronoun", "description": "singular" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "imperative singular" },
-    { "en": "it.", "fr": "cela.", "lemma": ".", "part": ".", "description": "." }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "impersonal present tense" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "adjective", "description": "possessive singular" },
+    { "fr": "saison préférée", "meaning": "favorite season", "lemma": "saison", "part": "noun", "description": "feminine singular possessive adjective" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative second person singular" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "second person singular" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "imperative second person plural" }
   ]
 }
 ```
@@ -242,18 +235,17 @@ Let me know if you'd like me to translate any other sentences!
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
-  "fr": "Désignez votre saison préférée et expliquez pourquoi vous l'aimez.",
+  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Désignez", "lemma": "décrire", "part": "verb", "description": "infinitive" },
-    { "en": "your", "fr": "votre", "lemma": "ton, votre", "part": "adjective", "description": "" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préférer", "part": "adjective", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquez", "lemma": "expliquer", "part": "verb", "description": "second person plural present" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "tu, vous", "part": "pronoun", "description": "" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "second person plural present" },
-    { "en": "it", "fr": "elle, lui", "lemma": "elle, il", "part": "pronoun", "description": "" }
+    { "fr": "décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "second person plural present imperative" },
+    { "fr": "votre", "meaning": "your", "lemma": "ton", "part": "adjective", "description": "" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférence", "part": "adjective", "description": "feminine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "second person plural present imperative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "" },
+    { "fr": "vous", "meaning": "you", "lemma": "tu", "part": "pronoun", "" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "second person plural present tense" }
   ]
 }
 ```
@@ -261,123 +253,44 @@ Let me know if you'd like me to translate any other sentences!
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
-  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous aimez.",
+  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { 
-      "en": "Describe", 
-      "fr": "décrire", 
-      "lemma": "décrit",
-      "part": "verb",
-      "description": "infinitive" 
-    },
-    { 
-      "en": "your", 
-      "fr": "votre", 
-      "lemma": "vous",
-      "part": "adjective",
-      "description": "possessive adjective, singular, masculine" 
-    },
-    { 
-      "en": "favorite", 
-      "fr": "préférée", 
-      "lemma": "préférence",
-      "part": "adjective",
-      "description": "feminine singular" 
-    },
-    { 
-      "en": "season", 
-      "fr": "saison", 
-      "lemma": "saison",
-      "part": "noun",
-      "description": "feminine singular"
-    },
-    {
-      "en": "and",
-      "fr": "et",
-      "lemma": "et",
-      "part": "conjunction",
-      "description": ""
-    },
-    { 
-      "en": "explain", 
-      "fr": "expliquer", 
-      "lemma": "explique",
-      "part": "verb",
-      "description": "infinitive" 
-    },
-    {
-      "en": "why",
-      "fr": "pourquoi",
-      "lemma": "raison",
-      "part": "adverb",
-      "description": ""
-    },
-    { 
-      "en": "you", 
-      "fr": "vous",
-      "lemma": "votre",
-      "part": "pronoun",
-      "description": "subjective, singular"
-    },
-    {
-      "en": "like",
-      "fr": "aimez",
-      "lemma": "aimer",
-      "part": "verb",
-      "description": "infinitive, second person plural present"
-    }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "imperative second person plural" },
+    { "fr": "votre", "meaning": "your", "lemma": "ton, votre", "part": "adjective", "description": "" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférer", "part": "adjective", "description": "" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative second person plural" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "tu, vous", "part": "pronoun", "description": "" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "imperative second person plural" }
   ]
 }
 ```
 # llama3:8b-instruct-q4_K_M
 ## 1
-Here is the translation, breakdown, and output in JSON:
+Here is the translation:
 
-**Output:**
 ```json
-{
-  "en": "Describe your favorite season and explain why you like it.",
-  "fr": "Déscribez votre saison préférée et expliquez pourquoi vous l'aimez.",
-  "breakdown": [
-    { "en": "Describe", "fr": "déscrire", "lemma": "déscrire", "part": "verb", "description": "" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "pronoun", "description": "possessive adjective" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préférer", "part": "adjective", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquer", "lemma": "expliquer", "part": "verb", "description": "" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "tu", "part": "pronoun", "description": "second person singular" },
-    { "en": "like", "fr": "aimer", "lemma": "aimer", "part": "verb", "description": "third person singular present" },
-    { "en": "it", "fr": "cela", "lemma": "cela", "part": "pronoun", "description": "" }
-  ]
-}
-```
-
-Let me know if you have any further requests!
-## 2
-Here is the translation, breakdown, and output in JSON:
-
-```
 {
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "décrire", "lemma": "décrire", "part": "verb", "description": "" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "adjective", "description": "possessive" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préféré(e)", "part": "noun", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquer", "lemma": "expliquer", "part": "verb", "description": "" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "pronoun", "description": "subject" },
-    { "en": "like", "fr": "aimer", "lemma": "aimer", "part": "verb", "description": "infinitive" },
-    { "en": "it", "fr": "cela", "lemma": "celui-ci/ce/cela", "part": "pronoun", "description": "" }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "second person singular imperative" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "adjective", "description": "" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférer", "part": "verb", "description": "past participle feminine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "second person singular imperative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "second person singular present indicative" }
   ]
 }
 ```
 
-Let me know if you have any further requests!
-## 3
+Note: The French translation is in the formal form, as the original sentence uses the second person singular ("you"). If you want to use the informal form ("tu"), please let me know!
+## 2
 Here is the translation:
 
 ```
@@ -385,36 +298,74 @@ Here is the translation:
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "Describe", "fr": "Décrivez", "lemma": "décrire", "part": "verb", "description": "second person singular present" },
-    { "en": "your", "fr": "votre", "lemma": "ton", "part": "pronoun", "description": "possessive adjective, singular, informal" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préférence", "part": "adjective", "description": "feminine singular, predicative" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "feminine singular" },
-    { "and", "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "explain", "expliquez", "lemma": "expliquer", "part": "verb", "description": "second person plural present" },
-    { "why", "pourquoi", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "you", "vous", "lemma": "tu", "part": "pronoun", "description": "subject, informal" },
-    { "like", "l'aimez", "lemma": "aimer", "part": "verb", "description": "second person plural present" },
-    { "it", "cela", "lemma": "ce", "part": "pronoun", "description": "" }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "" },
+    { "fr": "votre", "meaning": "your", "lemma": "ton", "part": "adjective", "description": "possessive" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférence", "part": "adjective", "description": "feminine singular" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "second person singular present imperative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "tu", "part": "pronoun", "description": "second person singular" },
+    { "fr": "l'", "meaning": "the", "lemma": "le", "part": "indefinite article", "description": "" },
+    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "second person singular present indicative" }
   ]
 }
 ```
 
-Note: The French translation uses the informal form "vous" for "you", as it is common in everyday conversation. If you prefer to use the formal form, you can replace "l'aimez" with "l'aiment".
+Note: In French, the verb "expliquer" is used in the imperative form (second person singular) when giving instructions or making a request.
+## 3
+Here is the translation, breakdown, and JSON output:
+
+Translation:
+Décrivez votre saison préférée et expliquez pourquoi vous l'aimiez.
+
+Breakdown:
+
+* "Describe" = "Décrivez"
+	+ Meaning: to give a detailed account of something
+	+ Part of speech: verb
+* "your favorite season" = "votre saison préférée"
+	+ Meaning: the time of year that you enjoy most
+	+ Part of speech: noun phrase
+* "and" = "et"
+	+ Meaning: and, together with
+	+ Part of speech: conjunction
+* "explain why you like it" = "expliquez pourquoi vous l'aimiez"
+	+ Meaning: to give the reason for liking something
+	+ Part of speech: verb phrase
+
+JSON Output:
+```json
+{
+  "en": "Describe your favorite season and explain why you like it.",
+  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimiez.",
+  "breakdown": [
+    { "en": "Describe", "fr": "Décrivez", "meaning": "to give a detailed account of something", "part": "verb" },
+    { "en": "your favorite season", "fr": "votre saison préférée", "meaning": "the time of year that you enjoy most", "part": "noun phrase" },
+    { "en": "and", "fr": "et", "meaning": "and, together with", "part": "conjunction" },
+    { "en": "explain why you like it", "fr": "expliquez pourquoi vous l'aimiez", "meaning": "to give the reason for liking something", "part": "verb phrase" }
+  ]
+}
+```
+
+Note: The JSON output includes the English and French translations, as well as a breakdown of each sentence into its individual words or phrases.
 # mistral-nemo:12b-instruct-2407-q4_K_M
 ## 1
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
-  "fr": " Décris ta saison préférée et explique pourquoi tu l'aimes.",
+  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "describe", "fr": "décris", "lemma": "décrire", "part": "verb", "description": "imperative singular" },
-    { "en": "your", "fr": "ta", "lemma": "ton", "part": "possessive adjective", "description": "singular, informal" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préféré", "part": "adjective", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "feminine singular" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "explique", "lemma": "expliquer", "part": "verb", "description": "imperative singular" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "interrogative adverb", "description": "" },
-    { "en": "you like it", "fr": "tu l'aimes", "lemma": "aimer", "part": "verb", "description": "informal, present singular" }
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "imperative singular" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": "" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférer", "part": "verb", "description": "past participle feminine singular (used as an adjective)" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative singular" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "interrogative adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "plural informal (used as a singular)" },
+    { "fr": "l'", "meaning": "the", "lemma": "le", "part": "definite article", "description": "masculine singular before a vowel" },
+    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "imperative plural (used as a singular)" }
   ]
 }
 ```
@@ -422,18 +373,17 @@ Note: The French translation uses the informal form "vous" for "you", as it is c
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
-  "fr": " décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
+  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "en": "describe", "fr": "décrivez", "lemma": "décrire", "part": "verb", "description": "imperative plural" },
-    { "en": "your", "fr": "votre", "lemma": "votre", "part": "possessive adjective", "description": "" },
-    { "en": "favorite", "fr": "préférée", "lemma": "préféré", "part": "adjective", "description": "feminine singular" },
-    { "en": "season", "fr": "saison", "lemma": "saison", "part": "noun", "description": "feminine singular" },
-    { "en": "and", "fr": "et", "lemma": "et", "part": "conjunction", "description": "" },
-    { "en": "explain", "fr": "expliquez", "lemma": "expliquer", "part": "verb", "description": "imperative plural" },
-    { "en": "why", "fr": "pourquoi", "lemma": "pourquoi", "part": "interrogative adverb", "description": "" },
-    { "en": "you", "fr": "vous", "lemma": "vous", "part": "pronoun", "description": "second person plural" },
-    { "en": "like", "fr": "aimez", "lemma": "aimer", "part": "verb", "description": "imperative plural" },
-    { "en": "it", "fr": "la", "lemma": "elle", "part": "pronoun", "description": "feminine singular object pronoun" }
+    { "fr": "Décri", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "imperative" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": "" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférer", "part": "verb", "description": "past participle used as an adjective" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "plural" },
+    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "present indicative, 2nd person plural" }
   ]
 }
 ```
@@ -443,76 +393,15 @@ Note: The French translation uses the informal form "vous" for "you", as it is c
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décris ta saison préférée et explique pourquoi tu l'aimes.",
   "breakdown": [
-    {
-      "en": "Describe",
-      "fr": "décris",
-      "lemma": "décrire",
-      "part": "verb",
-      "description": "imperative, singular"
-    },
-    {
-      "en": "your",
-      "fr": "ta",
-      "lemma": "ton",
-      "part": "possessive adjective",
-      "description": "singular, masculine or feminine"
-    },
-    {
-      "en": "favorite",
-      "fr": "préférée",
-      "lemma": "préféré",
-      "part": "adjective",
-      "description": "feminine singular, past participle used as an adjective"
-    },
-    {
-      "en": "season",
-      "fr": "saison",
-      "lemma": "saison",
-      "part": "noun",
-      "description": "feminine singular"
-    },
-    {
-      "en": "and",
-      "fr": "et",
-      "lemma": "et",
-      "part": "conjunction",
-      "description": ""
-    },
-    {
-      "en": "explain",
-      "fr": "explique",
-      "lemma": "expliquer",
-      "part": "verb",
-      "description": "imperative, singular"
-    },
-    {
-      "en": "why",
-      "fr": "pourquoi",
-      "lemma": "pourquoi",
-      "part": "adverb",
-      "description": ""
-    },
-    {
-      "en": "you",
-      "fr": "tu",
-      "lemma": "tu",
-      "part": "pronoun",
-      "description": "informal, singular"
-    },
-    {
-      "en": "like",
-      "fr": "aimes",
-      "lemma": "aimer",
-      "part": "verb",
-      "description": "second person singular present"
-    },
-    {
-      "en": "it.",
-      "fr": "ça.",
-      "lemma": "ça",
-      "part": "pronoun",
-      "description": "neuter object pronoun, informal"
-    }
+    { "fr": "Décris", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "imperative singular" },
+    { "fr": "ta", "meaning": "your", "lemma": "ton", "part": "possessive adjective", "description": "singular, masculine or feminine" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préféré", "part": "adjective", "description": "feminine singular, past participle used as an adjective" },
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
+    { "fr": "explique", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative singular" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "interrogative adverb", "description": "" },
+    { "fr": "tu", "meaning": "you", "lemma": "tu", "part": "pronoun", "description": "informal, singular" },
+    { "fr": "l'aimes", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "present indicative, third person singular (conventional use with 'tu' in imperative or impersonal constructions)" }
   ]
 }
 ```
