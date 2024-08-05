@@ -24,12 +24,12 @@ The world is full of beauty.
   "en": "The world is full of beauty.",
   "fr": "Le monde est plein de beauté.",
   "breakdown": [
-    { "en": "The", "fr": "Le", "description": "indefinite article, masculine singular" },
-    { "en": "world", "fr": "monde", "description": "noun, masculine singular" },
-    { "en": "is", "fr": "est", "description": "verb 'être', third person singular present" },
-    { "en": "full", "fr": "plein", "description": "adjective, masculine singular" },
-    { "en": "of", "fr": "de", "description": "preposition" },
-    { "en": "beauty", "fr": "beauté", "description": "noun, feminine singular" }
+    { "en": "The", "fr": "Le", "lemma": "le", "part": "indefinite article", "description": "masculine singular" },
+    { "en": "world", "fr": "monde", "lemma": "monde", "part": "noun", "description": "masculine singular" },
+    { "en": "is", "fr": "est", "lemma": "être", "part": "verb", "description": "third person singular present" },
+    { "en": "full", "fr": "plein", "lemma": "plein", "part": "adjective", "description": "masculine singular" },
+    { "en": "of", "fr": "de", "lemma": "de", "part": "preposition", "description": "" },
+    { "en": "beauty", "fr": "beauté", "lemma": "beauté", "part": "noun", "description": "feminine singular" }
   ]
 }
 ```
