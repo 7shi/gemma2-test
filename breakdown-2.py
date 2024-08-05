@@ -39,9 +39,6 @@ Describe your favorite season and explain why you like it.
   }
 ]
 
-prompt = """
-""".strip()
-
 for model in models:
     print("#", model)
     for i in range(3):
