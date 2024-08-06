@@ -11,7 +11,11 @@ The world is full of beauty.
   {
     "role": "assistant",
     "content": """
+**French Translation:**
+
 Le monde est plein de beauté.
+
+**Breakdown:**
 
 * Le monde: The world
 * est: is
