@@ -1,12 +1,4 @@
-import ollama
-
-models = """
-gemma2:2b-instruct-q4_K_M
-gemma2:9b-instruct-q4_K_M
-llama3.1:8b-instruct-q4_K_M
-llama3:8b-instruct-q4_K_M
-mistral-nemo:12b-instruct-2407-q4_K_M
-""".strip().split()
+import common
 
 messages = [
   {
@@ -39,9 +31,11 @@ Describe your favorite season and explain why you like it.
   }
 ]
 
-for model in models:
+for model in common.models:
+    print()
     print("#", model)
     for i in range(3):
+        print()
         print("##", i + 1)
-        response = ollama.chat(model=model, messages=messages)
-        print(response["message"]["content"])
+        print()
+        common.query(model, messages)

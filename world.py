@@ -1,20 +1,15 @@
-import ollama
+import common
 
-models = """
-gemma2:2b-instruct-q4_K_M
-gemma2:9b-instruct-q4_K_M
-llama3.1:8b-instruct-q4_K_M
-llama3:8b-instruct-q4_K_M
-mistral-nemo:12b-instruct-2407-q4_K_M
-""".strip().split()
-
-prompt = """
+messages = [{"role": "user", "content": """
 Translate into French with a breakdown:
 The world is full of beauty.
-""".strip()
+""".strip()}]
 
-for model in models:
+for model in common.models:
+    print()
     print("#", model)
     for i in range(3):
+        print()
         print("##", i + 1)
-        print(ollama.generate(model=model, prompt=prompt)["response"])
+        print()
+        common.query(model, messages)
