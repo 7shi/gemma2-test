@@ -8,11 +8,24 @@ llama3.1:8b-instruct-q4_K_M
 mistral-nemo:12b-instruct-2407-q4_K_M
 """.strip().split()
 
+def split(s):
+    ret = []
+    while (i := s.find("\n")) >= 0:
+        if i:
+            ret.append(s[:i])
+        ret.append(s[i])
+        s = s[i+1:]
+    if s:
+        ret.append(s)
+    return ret
+
 def stream(model, messages, format="", seed=None):
     if seed is None:
         seed = random.randint(0, 2**30)
+    text = ""
+    prev = ""
+    lines = ""
     chunks = []
-    line = ""
     stream = ollama.chat(
             model=model,
             messages=messages,
@@ -20,16 +33,25 @@ def stream(model, messages, format="", seed=None):
             format=format,
             options={"seed": seed})
     for chunk in stream:
+        chunks.append(chunk)
         content = chunk["message"]["content"]
-        print(content, end="", flush=True)
-        chunks.append(content)
-        line += content
-        while (i := line.find("\n")) >= 0:
-            line = line[i+1:]
-    if chunks and not chunks[-1].endswith("\n"):
+        text += content
+        t = ""
+        for ch in split(content):
+            if ch == "\n" and prev == "\n":
+                lines += ch
+            else:
+                if lines:
+                    t += lines
+                    lines = ""
+                t += ch
+            prev = ch
+        if t:
+            print(t, end="", flush=True)
+    if prev != "\n":
         print()
     chunk["seed"] = seed
-    return "".join(chunks), chunks
+    return text, chunks
 
 def show(chunk):
     count = chunk["eval_count"]
