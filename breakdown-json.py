@@ -11,7 +11,6 @@ The world is full of beauty.
   {
     "role": "assistant",
     "content": """
-```json
 {
   "en": "The world is full of beauty.",
   "fr": "Le monde est plein de beauté.",
@@ -24,7 +23,6 @@ The world is full of beauty.
     { "fr": "beauté", "meaning": "beauty", "lemma": "beauté", "part": "noun", "description": "feminine singular" }
   ]
 }
-```
 """.strip()
   },
   {
@@ -36,11 +34,15 @@ Describe your favorite season and explain why you like it.
   }
 ]
 
-for model in common.models[-1:]:
+for model in common.models:
     print()
     print("#", model)
     for i in range(3):
         print()
         print("##", i + 1)
         print()
-        common.query(model, messages)
+        print("```json")
+        result = common.q(model, messages, "json")
+        print("```")
+        print()
+        common.show(*result[1:])

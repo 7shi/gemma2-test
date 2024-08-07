@@ -7,10 +7,10 @@ mi ritrovai per una selva oscura,
 ché la diritta via era smarrita.
 """.strip()}]
 
-for model in common.models:
+for model in [common.models[1]]:
     print()
     print("#", model)
-    for i in range(3):
+    for i in range(30):
         print()
         print("##", i + 1)
         print()
