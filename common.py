@@ -8,7 +8,7 @@ llama3.1:8b-instruct-q4_K_M
 mistral-nemo:12b-instruct-2407-q4_K_M
 """.strip().split()
 
-def q(model, messages, format="", seed=None):
+def stream(model, messages, format="", seed=None):
     if seed is None:
         seed = random.randint(0, 2**30)
     start = datetime.now()
@@ -39,7 +39,7 @@ def show(count, duration, tps, seed):
     print(f"[count={count}, duration={duration}, tps={tps:.2f}, seed={seed}]")
 
 def query(model, messages, format="", seed=None):
-    result = q(model, messages, format, seed)
+    result = stream(model, messages, format, seed)
     print()
     show(*result[1:])
     return result
