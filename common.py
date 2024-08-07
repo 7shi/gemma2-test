@@ -28,17 +28,19 @@ def stream(model, messages, format="", seed=None):
             line = line[i+1:]
     if chunks and not chunks[-1].endswith("\n"):
         print()
+    chunk["seed"] = seed
+    return "".join(chunks), chunks
+
+def show(chunk):
     count = chunk["eval_count"]
     duration = chunk["eval_duration"] / 1e9
     delta = timedelta(seconds=duration)
     tps = count / duration
-    return "".join(chunks), count, delta, tps, seed
-
-def show(count, duration, tps, seed):
-    print(f"[count={count}, duration={duration}, tps={tps:.2f}, seed={seed}]")
+    seed = chunk["seed"]
+    print(f"[count={count}, duration={delta}, tps={tps:.2f}, seed={seed}]")
 
 def query(model, messages, format="", seed=None):
     result = stream(model, messages, format, seed)
     print()
-    show(*result[1:])
+    show(result[1][-1])
     return result
