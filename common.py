@@ -66,3 +66,8 @@ def query(model, messages, format="", seed=None):
     print()
     show(result[1][-1])
     return result
+
+def read_seeds(filename):
+    import re
+    with open(filename, "r") as f:
+        return [int(m) for m in re.findall(r"seed=(\d+)", f.read())]
