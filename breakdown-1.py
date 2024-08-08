@@ -3,7 +3,7 @@ import common
 messages = [{ "role": "user", "content": """
 Translate into French with a breakdown:
 The world is full of beauty.
-""".strip() }]
+"""[1:-1] }]
 
 seeds = iter([
     741216264, 166311031, 278279906,

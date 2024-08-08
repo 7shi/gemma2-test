@@ -1,11 +1,11 @@
 import common
 
 messages = [
-  { "role": "user", "content": """
+    { "role": "user", "content": """
 Translate into French with a breakdown and output in JSON:
 The world is full of beauty.
-""".strip() },
-  { "role": "assistant", "content": """
+"""[1:-1] },
+    { "role": "assistant", "content": """
 {
   "en": "The world is full of beauty.",
   "fr": "Le monde est plein de beauté.",
@@ -18,11 +18,11 @@ The world is full of beauty.
     { "fr": "beauté", "meaning": "beauty", "lemma": "beauté", "part": "noun", "description": "feminine singular" }
   ]
 }
-""".strip() },
-  { "role": "user", "content": """
+"""[1:-1] },
+    { "role": "user", "content": """
 Translate into French with a breakdown and output in JSON:
 Describe your favorite season and explain why you like it.
-""".strip() },
+"""[1:-1] },
 ]
 
 seeds = iter([

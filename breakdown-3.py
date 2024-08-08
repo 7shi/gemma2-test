@@ -4,7 +4,7 @@ messages = [
     { "role": "user", "content": """
 Translate into French with a breakdown:
 The world is full of beauty.
-""".strip() },
+"""[1:-1] },
     { "role": "assistant", "content": """
 **French Translation:**
 
@@ -15,11 +15,11 @@ Le monde est plein de beauté.
 * Le monde: The world
 * est: is
 * plein de beauté: full of beauty
-""".strip() },
+"""[1:-1] },
     { "role": "user", "content": """
 Translate into French with a breakdown:
 Describe your favorite season and explain why you like it.
-""".strip() },
+"""[1:-1] },
 ]
 
 seeds = iter([

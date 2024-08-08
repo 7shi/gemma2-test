@@ -5,7 +5,7 @@ Translate into English with a breakdown:
 Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,
 ché la diritta via era smarrita.
-""".strip() }]
+"""[1:-1] }]
 
 seeds = iter([
     6349636, 1014400374, 71309843,
