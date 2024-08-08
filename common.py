@@ -6,7 +6,7 @@ gemma2:2b-instruct-q4_K_M
 gemma2:9b-instruct-q4_K_M
 llama3.1:8b-instruct-q4_K_M
 mistral-nemo:12b-instruct-2407-q4_K_M
-""".strip().split()
+""".strip().split("\n")
 
 def split(s):
     ret = []
