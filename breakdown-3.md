@@ -24,7 +24,7 @@ Here's the translation, along with a breakdown to help understand the nuances:
 
 Let me know if you'd like me to help with a sample response! 
 
-[count=302, duration=0:01:20.492208, tps=3.75, seed=115765205]
+[count=302, duration=0:00:59.222891, tps=5.10, seed=115765205]
 
 ## 2
 
@@ -54,8 +54,7 @@ Here's how to translate "Describe your favorite season and explain why you like 
 
 Let me know if you'd like help with more examples! 😊 
 
-
-[count=260, duration=0:00:54.381514, tps=4.78, seed=60653243]
+[count=260, duration=0:00:53.063657, tps=4.90, seed=60653243]
 
 ## 3
 
@@ -76,8 +75,7 @@ Here's the translation, broken down:
 
 Let me know if you want help translating any other sentences! 
 
-
-[count=149, duration=0:00:30.597036, tps=4.87, seed=174840290]
+[count=149, duration=0:00:28.020269, tps=5.32, seed=174840290]
 
 # gemma2:9b-instruct-q4_K_M
 
@@ -104,8 +102,7 @@ Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
 
 Let me know if you'd like help translating a description of a favorite season! 😊  
 
-
-[count=106, duration=0:02:07.940725, tps=0.83, seed=913415146]
+[count=106, duration=0:01:02.052967, tps=1.71, seed=913415146]
 
 ## 2
 
@@ -130,8 +127,7 @@ Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
  
 Let me know if you'd like help translating a specific description of your favorite season! 😊 
 
-
-[count=132, duration=0:01:24.045183, tps=1.57, seed=360416609]
+[count=132, duration=0:01:21.145166, tps=1.63, seed=360416609]
 
 ## 3
 
@@ -154,8 +150,7 @@ Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
 
 Let me know if you'd like help translating a description of a specific season!  😊 
 
-
-[count=125, duration=0:01:20.253129, tps=1.56, seed=814819004]
+[count=125, duration=0:01:17.236654, tps=1.62, seed=814819004]
 
 # llama3.1:8b-instruct-q4_K_M
 
@@ -175,7 +170,7 @@ Déscribez votre saison préférée et expliquez pourquoi vous l'aimez.
 * pourquoi : why
 * vous l'aimez : you like it (lit. "you love it", but the informal tone suggests "you like" rather than "you love")
 
-[count=145, duration=0:02:01.810842, tps=1.19, seed=416609499]
+[count=145, duration=0:01:09.867308, tps=2.08, seed=416609499]
 
 ## 2
 
@@ -200,7 +195,7 @@ Décritez votre saison préférée et expliquez pourquoi vous aimez.
 
 Note: The French translation uses the informal "tu" form, which is suitable for addressing someone you know well or in an informal setting. If you want to use the formal "vous" form, you can replace "décritez" and "expliquez" with "désignez" and "expliquiez".
 
-[count=280, duration=0:02:25.820384, tps=1.92, seed=388350555]
+[count=280, duration=0:02:22.851365, tps=1.96, seed=388350555]
 
 ## 3
 
@@ -218,7 +213,7 @@ Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
 * pourquoi : why
 * vous l'aimez : you like it (Note: "vous" is the subject pronoun for "you", and "l'" is a contraction of "le" + "a", where "le" is the definite article for masculine nouns, and "a" is the verb "aimer", which means to like or love)
 
-[count=203, duration=0:01:44.024903, tps=1.95, seed=170635955]
+[count=203, duration=0:01:43.005677, tps=1.97, seed=170635955]
 
 # mistral-nemo:12b-instruct-2407-q4_K_M
 
@@ -240,7 +235,7 @@ Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
 * vous: you (informal singular)
 * l'aimez: like it (form of 'aimer' in the present tense, 2nd person singular)
 
-[count=117, duration=0:02:32.716958, tps=0.77, seed=900754601]
+[count=117, duration=0:01:23.479689, tps=1.40, seed=900754601]
 
 ## 2
 
@@ -258,7 +253,7 @@ Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.
 * pourquoi: why
 * vous l'aimez: you like it
 
-[count=71, duration=0:00:52.397269, tps=1.36, seed=233360089]
+[count=71, duration=0:00:50.846821, tps=1.40, seed=233360089]
 
 ## 3
 
@@ -276,4 +271,4 @@ Décris ta saison préférée et explique pourquoi tu l'aimes.
 * pourquoi: why
 * tu l'aimes: you like it (contraction of "tu" and "l'", followed by the present tense of "aimer")
 
-[count=120, duration=0:01:33.117333, tps=1.29, seed=764294534]
+[count=120, duration=0:01:28.742757, tps=1.35, seed=764294534]

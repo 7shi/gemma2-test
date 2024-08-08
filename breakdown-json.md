@@ -19,7 +19,7 @@
 }
 ```
 
-[count=350, duration=0:02:05.048488, tps=2.80, seed=262006003]
+[count=350, duration=0:01:16.684154, tps=4.56, seed=262006003]
 
 ## 2
 
@@ -38,14 +38,9 @@
     { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "present tense, active voice" } 
   ]
 }
-
-
-
-
-
 ```
 
-[count=351, duration=0:01:17.160845, tps=4.55, seed=310331335]
+[count=351, duration=0:01:16.975465, tps=4.56, seed=310331335]
 
 ## 3
 
@@ -64,12 +59,9 @@
     { "fr": "l'aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "third person singular present indicative" } 
   ]
 } 
-
-
-
 ```
 
-[count=357, duration=0:01:19.142630, tps=4.51, seed=704363529]
+[count=357, duration=0:01:18.691625, tps=4.54, seed=704363529]
 
 # gemma2:9b-instruct-q4_K_M
 
@@ -93,7 +85,7 @@
 }
 ```
 
-[count=395, duration=0:07:54.825347, tps=0.83, seed=234934443]
+[count=395, duration=0:05:01.329878, tps=1.31, seed=234934443]
 
 ## 2
 
@@ -113,13 +105,9 @@
     { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "present tense, formal second person singular" }
   ]
 } 
-
-
-
-
 ```
 
-[count=391, duration=0:04:51.303699, tps=1.34, seed=929345705]
+[count=391, duration=0:05:01.090899, tps=1.30, seed=929345705]
 
 ## 3
 
@@ -193,14 +181,9 @@
     }
   ]
 }
-
-
-
-
-
 ```
 
-[count=497, duration=0:06:26.264569, tps=1.29, seed=25910753]
+[count=497, duration=0:06:25.345191, tps=1.29, seed=25910753]
 
 # llama3.1:8b-instruct-q4_K_M
 
@@ -227,7 +210,7 @@
 }
 ```
 
-[count=383, duration=0:06:16.229593, tps=1.02, seed=268805974]
+[count=383, duration=0:03:40.143665, tps=1.74, seed=268805974]
 
 ## 2
 
@@ -249,7 +232,7 @@
 }
 ```
 
-[count=396, duration=0:03:52.502813, tps=1.70, seed=58049255]
+[count=396, duration=0:03:53.140665, tps=1.70, seed=58049255]
 
 ## 3
 
@@ -271,7 +254,7 @@
 }
 ```
 
-[count=406, duration=0:03:56.893722, tps=1.71, seed=21594096]
+[count=406, duration=0:03:54.116316, tps=1.73, seed=21594096]
 
 # mistral-nemo:12b-instruct-2407-q4_K_M
 
@@ -349,7 +332,7 @@
 }
 ```
 
-[count=458, duration=0:10:13.642365, tps=0.75, seed=541873174]
+[count=458, duration=0:06:49.032946, tps=1.12, seed=541873174]
 
 ## 2
 
@@ -371,26 +354,26 @@
 }
 ```
 
-[count=406, duration=0:05:46.397173, tps=1.17, seed=785152001]
+[count=406, duration=0:05:52.970035, tps=1.15, seed=785152001]
 
 ## 3
 
 ```json
 {
   "en": "Describe your favorite season and explain why you like it.",
-  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
+  "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'appréciez.",
   "breakdown": [
-    { "fr": "décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "imperative" },
-    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": "" },
+    { "fr": "décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "imperative plural" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": "singular" },
     { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
-    { "fr": "préférée", "meaning": "preferred", "lemma": "préférer", "part": "verb", "description": "past participle, feminine singular" },
+    { "fr": "préférée", "meaning": "favorite", "lemma": "préférer", "part": "past participle", "description": "feminine singular" },
     { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
-    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative" },
-    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "interrogative adjective", "description": "" },
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "imperative plural" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "interrogative adverb", "description": "" },
     { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "plural" },
-    { "fr": "l'aimez", "meaning": "like it", "lemma": "aimer", "part": "verb", "description": "present indicative, plural" }
+    { "fr": "l'appréciez", "meaning": "like it", "lemma": "apprécier", "part": "verb", "description": "present indicative plural" }
   ]
 }
 ```
 
-[count=388, duration=0:05:26.864975, tps=1.19, seed=7663002]
+[count=397, duration=0:05:50.716256, tps=1.13, seed=7663002]

@@ -1,16 +1,11 @@
 import common
 
 messages = [
-  {
-    "role": "user",
-    "content": """
+  { "role": "user", "content": """
 Translate into French with a breakdown and output in JSON:
 The world is full of beauty.
-""".strip()
-  },
-  {
-    "role": "assistant",
-    "content": """
+""".strip() },
+  { "role": "assistant", "content": """
 {
   "en": "The world is full of beauty.",
   "fr": "Le monde est plein de beauté.",
@@ -23,16 +18,19 @@ The world is full of beauty.
     { "fr": "beauté", "meaning": "beauty", "lemma": "beauté", "part": "noun", "description": "feminine singular" }
   ]
 }
-""".strip()
-  },
-  {
-    "role": "user",
-    "content": """
+""".strip() },
+  { "role": "user", "content": """
 Translate into French with a breakdown and output in JSON:
 Describe your favorite season and explain why you like it.
-""".strip()
-  }
+""".strip() },
 ]
+
+seeds = iter([
+    262006003, 310331335, 704363529,
+    234934443, 929345705, 25910753,
+    268805974, 58049255, 21594096,
+    541873174, 785152001, 7663002,
+])
 
 for model in common.models:
     print()
@@ -42,7 +40,7 @@ for model in common.models:
         print("##", i + 1)
         print()
         print("```json")
-        result = common.q(model, messages, "json")
+        _, chunks = common.stream(model, messages, "json", next(seeds))
         print("```")
         print()
-        common.show(*result[1:])
+        common.show(chunks[-1])

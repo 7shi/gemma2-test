@@ -17,8 +17,7 @@ The translation is a straightforward and natural way to express the sentiment in
 
 Let me know if you'd like me to translate other phrases or sentences!  😊 
 
-
-[count=92, duration=0:00:21.799456, tps=4.22, seed=741216264]
+[count=92, duration=0:00:16.470719, tps=5.59, seed=741216264]
 
 ## 2
 
@@ -42,8 +41,7 @@ The translation, "Le monde est plein de beauté," is grammatically correct and c
 
 This translation accurately captures the original meaning and conveys the sentiment that the world is filled with beauty. 
 
-
-[count=161, duration=0:00:31.813301, tps=5.06, seed=166311031]
+[count=161, duration=0:00:30.072728, tps=5.35, seed=166311031]
 
 ## 3
 
@@ -71,8 +69,7 @@ This translation is literal and directly conveys the meaning of the English phra
 
 It's important to note that French has its own nuanced vocabulary and grammatical structures.  Choosing the right translation depends on the context and desired effect. 
 
-
-[count=226, duration=0:00:42.750545, tps=5.29, seed=278279906]
+[count=226, duration=0:00:43.497096, tps=5.20, seed=278279906]
 
 # gemma2:9b-instruct-q4_K_M
 
@@ -101,10 +98,7 @@ This sentence uses the simple present tense to convey a general truth about the 
 * de: "duh"
 * beauté: "buh-tay"
 
-
-
-
-[count=144, duration=0:01:44.422964, tps=1.38, seed=371205739]
+[count=144, duration=0:01:22.149547, tps=1.75, seed=371205739]
 
 ## 2
 
@@ -132,7 +126,7 @@ The article "le" indicates that "monde" is a masculine singular noun.
 
 Let me know if you'd like to see more translations or have any other questions!
 
-[count=148, duration=0:01:25.473049, tps=1.73, seed=920345356]
+[count=148, duration=0:01:23.622234, tps=1.77, seed=920345356]
 
 ## 3
 
@@ -151,7 +145,7 @@ Le monde est plein de beauté.
 
 Let me know if you have any other phrases you'd like translated!
 
-[count=67, duration=0:00:38.997890, tps=1.72, seed=933603107]
+[count=67, duration=0:00:37.247975, tps=1.80, seed=933603107]
 
 # llama3.1:8b-instruct-q4_K_M
 
@@ -170,7 +164,7 @@ Here's the translation into French, broken down:
 
 So, when you combine these elements, you get: **"Le monde est plein de beauté."**
 
-[count=215, duration=0:02:05.256673, tps=1.72, seed=1054064964]
+[count=215, duration=0:01:37.459380, tps=2.21, seed=1054064964]
 
 ## 2
 
@@ -189,7 +183,7 @@ Breakdown:
 
 Note: In French, the word order is often different from English, so the translation of a sentence may not be a direct word-for-word translation.
 
-[count=147, duration=0:01:08.107287, tps=2.16, seed=133713482]
+[count=147, duration=0:01:07.371208, tps=2.18, seed=133713482]
 
 ## 3
 
@@ -209,7 +203,7 @@ Breakdown:
 * "beauty" = **de beauté**
 	+ This is a possessive form of the noun "beauté", which means beauty. The preposition "of" is translated as "de".
 
-[count=220, duration=0:01:44.364772, tps=2.11, seed=1067573600]
+[count=220, duration=0:01:44.830367, tps=2.10, seed=1067573600]
 
 # mistral-nemo:12b-instruct-2407-q4_K_M
 
@@ -226,7 +220,7 @@ Here's the translation of "The world is full of beauty" into French, along with 
      - de: of
      - beauté: beauty
 
-[count=89, duration=0:01:33.524945, tps=0.95, seed=992012649]
+[count=89, duration=0:00:59.529202, tps=1.50, seed=992012649]
 
 ## 2
 
@@ -239,7 +233,7 @@ Here's the translation of "The world is full of beauty" into French, along with 
 - de = of
 - beauté = beauty
 
-[count=51, duration=0:00:34.783588, tps=1.47, seed=527118300]
+[count=51, duration=0:00:35.029216, tps=1.46, seed=527118300]
 
 ## 3
 
@@ -252,4 +246,4 @@ Here's the translation of "The world is full of beauty" into French, along with 
 - de (of)
 - beauté (beauty)
 
-[count=46, duration=0:00:32.026062, tps=1.44, seed=460533073]
+[count=46, duration=0:00:31.670928, tps=1.45, seed=460533073]

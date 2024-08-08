@@ -18,8 +18,7 @@
 
 The quote is taken from Dante Alighieri's _The Divine Comedy_  (specifically _Inferno_, Canto I). It's one of the most famous lines in literature, encapsulating a universal feeling of being lost and disillusioned with life's path.
 
-
-[count=321, duration=0:01:30.065494, tps=3.56, seed=6349636]
+[count=321, duration=0:01:01.673724, tps=5.20, seed=6349636]
 
 ## 2
 
@@ -37,8 +36,7 @@ This famous passage is from Dante Alighieri's *The Divine Comedy*. It is often u
 
 Let me know if you'd like more explanation on any of these parts! 
 
-
-[count=279, duration=0:00:58.396806, tps=4.78, seed=1014400374]
+[count=279, duration=0:00:53.161183, tps=5.25, seed=1014400374]
 
 ## 3
 
@@ -67,42 +65,48 @@ This quote remains influential in literature, art, and philosophy due to its sym
 * **Human Nature:** It reflects human vulnerability and struggles with direction.
 * **Moral Journey:** The passage connects to Dante's larger work about confronting sin and finding redemption.
 
-
-
-
-[count=363, duration=0:01:18.069503, tps=4.65, seed=71309843]
+[count=363, duration=0:01:12.144696, tps=5.03, seed=71309843]
 
 # gemma2:9b-instruct-q4_K_M
 
 ## 1
 
-##  Translation and Breakdown
+## Translation and Breakdown
 
 **English Translation:** 
 
-> Midway upon the journey of our life
-> I found myself within a dark wood,
-> For the straight path was lost.
-
+In the middle of my life's journey, I found myself in a dark forest, because the straight path had been lost.
 
 **Breakdown:**
 
-* **Nel mezzo del cammin di nostra vita**: This phrase means "in the middle of the journey of our life."  "Cammin" translates to "journey" or "way," and "nostra vita" means "our life." 
+* **Nel mezzo del cammin di nostra vita:**  "In the middle of our life's journey."
+    * *Nel mezzo*: "in the middle"
+    * *cammin*: "journey," "path"
+    * *di nostra vita*: "of our life" 
+* **mi ritrovai per una selva oscura:** "I found myself in a dark forest."
+    * *mi ritrovai*: "I found myself" 
+    * *per*: "through," "in"
+    * *una selva oscura*: "a dark forest"
+        * *selva*: "forest"
+        * *oscura*: "dark"
+* **ché la diritta via era smarrita:** "because the straight path had been lost."
+    * *ché*: "because"
+    * *la diritta via*: "the straight path"
+        * *diritta*: "straight," "correct"
+        * *via*: "path"
+    * *era smarrita*: "had been lost"
 
-* **mi ritrovai per una selva oscura**: This translates to "I found myself within a dark wood." "Mi ritrovai" is a past tense conjugation of the verb "ritrovarsi," meaning "to find oneself." "Selva oscura" literally means "dark wood" and symbolizes being lost in confusion or sin.
 
-* **ché la diritta via era smarrita**: This translates to "for the straight path was lost." "Diritto" means "straight" or "right," referring to the moral and righteous path. "Smarrita" means "lost."
+**Context:**
 
-
-**Context:** 
-
-This is the opening stanza of Dante Alighieri's famous epic poem, *The Divine Comedy.*  It sets the stage for Dante's journey through Hell, Purgatory, and Paradise. He describes himself at a point in his life where he feels lost and has strayed from the righteous path. The dark wood symbolizes his spiritual and moral state, and his quest to find redemption will be the central theme of the poem.
+This is the opening stanza of Dante Alighieri's epic poem, *The Divine Comedy*. It sets the scene for the entire journey, with Dante finding himself lost in a metaphorical dark forest representing sin and spiritual confusion. 
 
 
 
-Let me know if you have any other phrases you'd like translated!
 
-[count=323, duration=0:04:12.224261, tps=1.28, seed=879261736]
+Let me know if you have any other phrases or passages you'd like translated!
+
+[count=332, duration=0:03:23.852073, tps=1.63, seed=817187924]
 
 ## 2
 
@@ -128,7 +132,7 @@ Here's the translation and breakdown of this famous opening line from Dante's *I
 
 Let me know if you have any other questions about this famous passage!
 
-[count=318, duration=0:03:29.084784, tps=1.52, seed=697241969]
+[count=318, duration=0:03:26.834191, tps=1.54, seed=697241969]
 
 ## 3
 
@@ -162,7 +166,7 @@ This is the famous opening line of Dante Alighieri's epic poem, *The Divine Come
 
 Let me know if you have any other passages you'd like translated!
 
-[count=313, duration=0:03:27.240092, tps=1.51, seed=748567551]
+[count=313, duration=0:03:24.476032, tps=1.53, seed=748567551]
 
 # llama3.1:8b-instruct-q4_K_M
 
@@ -204,7 +208,7 @@ Putting it all together, we get:
 
 **In the middle of my life's journey I found myself in a dark forest, for the straight path was lost.**
 
-[count=329, duration=0:03:21.595337, tps=1.63, seed=981832298]
+[count=329, duration=0:02:48.170160, tps=1.96, seed=981832298]
 
 ## 2
 
@@ -235,7 +239,7 @@ Here is the translation of the famous opening lines from Dante Alighieri's "Infe
 
 So, in essence, these lines are saying that Dante found himself at a critical moment in his life, struggling to navigate through a difficult and dark period, having lost sight of the right path.
 
-[count=263, duration=0:02:13.850761, tps=1.96, seed=1016541309]
+[count=263, duration=0:02:13.003969, tps=1.98, seed=1016541309]
 
 ## 3
 
@@ -279,7 +283,7 @@ Because the straight path was lost."
 
 This is a famous opening stanza from Dante Alighieri's epic poem, The Divine Comedy.
 
-[count=416, duration=0:03:40.543239, tps=1.89, seed=889656337]
+[count=416, duration=0:03:37.818235, tps=1.91, seed=889656337]
 
 # mistral-nemo:12b-instruct-2407-q4_K_M
 
@@ -305,7 +309,7 @@ In the middle of our life's way, I found myself in a dark forest because the str
 
 This poem is an excerpt from Dante Alighieri's Divine Comedy, where he describes his journey through hell, purgatory, and paradise. The "dark forest" represents the struggle or confusion that Dante (and humans generally) faces midway through life when they have lost their way morally or spiritually.
 
-[count=310, duration=0:04:41.774030, tps=1.10, seed=13020530]
+[count=310, duration=0:03:53.295149, tps=1.33, seed=13020530]
 
 ## 2
 
@@ -333,7 +337,7 @@ because the straight path was lost.
    - ché (because) + La (the) + Diritta (straight) + Via (path) + Era (was) + Smarrita (lost)
    - "because the straight path was lost"
 
-[count=284, duration=0:03:38.423274, tps=1.30, seed=1039299909]
+[count=284, duration=0:03:36.269397, tps=1.31, seed=1039299909]
 
 ## 3
 
@@ -366,4 +370,4 @@ because the straight path was lost.
   - era: was (past tense of 'essere')
   - smarrita: lost (feminine past participle of 'smarrirsi')
 
-[count=287, duration=0:03:40.514261, tps=1.30, seed=235259056]
+[count=287, duration=0:03:38.889716, tps=1.31, seed=235259056]
