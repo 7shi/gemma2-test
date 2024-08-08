@@ -1,8 +1,10 @@
 # 1
 
+```
 Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,
 ché la diritta via era smarrita.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -138,9 +140,11 @@ having lost the straight path.
 
 # 4
 
+```
 Ahi quanto a dir qual era è cosa dura
 esta selva selvaggia e aspra e forte
 che nel pensier rinova la paura!
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -278,9 +282,11 @@ this wild and rough and harsh one that renews the fear in my thoughts!
 
 # 7
 
+```
 Tant’ è amara che poco è più morte;
 ma per trattar del ben ch’i’ vi trovai,
 dirò de l’altre cose ch’i’ v’ho scorte.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -423,9 +429,11 @@ I will tell you of the other things which I saw.
 
 # 10
 
+```
 Io non so ben ridir com’ i’ v’intrai,
 tant’ era pien di sonno a quel punto
 che la verace via abbandonai.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -559,9 +567,11 @@ that I left the true way.
 
 # 13
 
+```
 Ma poi ch’i’ fui al piè d’un colle giunto,
 là dove terminava quella valle
 che m’avea di paura il cor compunto,
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -710,9 +720,11 @@ that had filled my heart with fear,
 
 # 16
 
+```
 guardai in alto e vidi le sue spalle
 vestite già de’ raggi del pianeta
 che mena dritto altrui per ogne calle.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -854,9 +866,11 @@ I looked up and saw her shoulders already clad in the rays of the planet that gu
 
 # 19
 
+```
 Allor fu la paura un poco queta,
 che nel lago del cor m’era durata
 la notte ch’i’ passai con tanta pieta.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -993,9 +1007,11 @@ through the night that I spent with so much pity.
 
 # 22
 
+```
 E come quei che con lena affannata,
 uscito fuor del pelago a la riva,
 si volge a l’acqua perigliosa e guata,
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -1136,9 +1152,11 @@ turns back to gaze upon the perilous water.
 
 # 25
 
+```
 così l’animo mio, ch’ancor fuggiva,
 si volse a retro a rimirar lo passo
 che non lasciò già mai persona viva.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -1287,9 +1305,11 @@ that no one ever left alive.
 
 # 28
 
+```
 Poi ch’èi posato un poco il corpo lasso,
 ripresi via per la piaggia diserta,
 sì che ’l piè fermo sempre era ’l più basso.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -1440,9 +1460,11 @@ so that my firm step was always the lowest.
 
 # 31
 
+```
 Ed ecco, quasi al cominciar de l’erta,
 una lonza leggera e presta molto,
 che di pel macolato era coverta;
+```
 
 ## gemma2:2b-instruct-q4_K_M
 
@@ -1577,9 +1599,11 @@ whose coat was mottled;
 
 # 34
 
+```
 e non mi si partia dinanzi al volto,
 anzi ’mpediva tanto il mio cammino,
 ch’i’ fui per ritornar più volte vòlto.
+```
 
 ## gemma2:2b-instruct-q4_K_M
 

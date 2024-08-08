@@ -92,7 +92,9 @@ for lnum in range(1):
     print("#", lnum + 1)
     print()
     lines = "\n".join(inferno1[lnum:lnum+3])
+    print("```")
     print(lines)
+    print("```")
     messages[-1]["content"] = prompt + lines
     for model in common.models:
         print()
