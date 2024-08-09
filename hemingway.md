@@ -67,17 +67,17 @@ Overall, the translation aims for clarity while preserving the tone and meaning 
 
 [count=138, duration=0:01:48.761480, tps=1.27, seed=774639974]
 
-## llama3.1:8b-instruct-q4_K_M
-
-ロバート・コーンは、プリンストン大学のミドル級ボクシング王者であった。 そのことをボクシングのタイトルと認識する必要はないが、それはコーンにとって大きな意味を帯びていた。実際、彼はボクシングに関心も持っていなかったか、むしろ嫌っていた。しかし彼は、プリンストンでユダヤ人として扱われることによって感じた劣等感や羞恥心を打ち負かすために、そのことを痛くて徹底して学んだ。
-
-[count=128, duration=0:01:08.711764, tps=1.86, seed=774639974]
-
 ## llama3.1:8b-instruct-q4_K_S
 
 ロバート・コーンは、プリンストン大学のミドル級ボクシング王者であった。 私にとってはボクシングの王座といえばあまり特別なものではないが、それは彼にとって大きな意味をもっていた。 ボクシングにもあまり興味がないし逆に嫌いだった彼だが、自分をユダヤ人として扱われることへの劣等感と引きこもりを克服するために、厳格に練習して身につけたものだ。
 
 [count=116, duration=0:00:58.398855, tps=1.99, seed=774639974]
+
+## llama3.1:8b-instruct-q4_K_M
+
+ロバート・コーンは、プリンストン大学のミドル級ボクシング王者であった。 そのことをボクシングのタイトルと認識する必要はないが、それはコーンにとって大きな意味を帯びていた。実際、彼はボクシングに関心も持っていなかったか、むしろ嫌っていた。しかし彼は、プリンストンでユダヤ人として扱われることによって感じた劣等感や羞恥心を打ち負かすために、そのことを痛くて徹底して学んだ。
+
+[count=128, duration=0:01:08.711764, tps=1.86, seed=774639974]
 
 ## mistral-nemo:12b-instruct-2407-q4_0
 
@@ -85,17 +85,17 @@ Overall, the translation aims for clarity while preserving the tone and meaning 
 
 [count=112, duration=0:02:10.553254, tps=0.86, seed=774639974]
 
-## mistral-nemo:12b-instruct-2407-q4_K_M
-
-ロバート・コーンはonceプリンストンの中量級ボクシングチャンピオンでした。このボクシングタイトルがあまり印象に残らないかのように思うかもしれませんが、コーンには多くのことを意味しました。実際彼はボクシングを嫌い、緩急を制御するように徹底的に学んだのは、プリンストンでユダヤ人として扱われた時に感じた劣等感と恥ずかしさに対抗するためでした。
-
-[count=112, duration=0:01:28.596848, tps=1.26, seed=774639974]
-
 ## mistral-nemo:12b-instruct-2407-q4_K_S
 
 ロバート・コーンはonceプリンストンの中量級ボクシングチャンピオンでした。このボクシングタイトルにあまり感心していませんが、コーンにとって大切な意味がありました。彼はボクシングを何とも思わなかったし、むしろ嫌いだったのですが、自らユダイアズムとしてプリンストンで扱われたときに感じた劣等感や恥ずかしさを克服するために苦労して徹底的に学んだのです。
 
 [count=116, duration=0:01:26.472285, tps=1.34, seed=774639974]
+
+## mistral-nemo:12b-instruct-2407-q4_K_M
+
+ロバート・コーンはonceプリンストンの中量級ボクシングチャンピオンでした。このボクシングタイトルがあまり印象に残らないかのように思うかもしれませんが、コーンには多くのことを意味しました。実際彼はボクシングを嫌い、緩急を制御するように徹底的に学んだのは、プリンストンでユダヤ人として扱われた時に感じた劣等感と恥ずかしさに対抗するためでした。
+
+[count=112, duration=0:01:28.596848, tps=1.26, seed=774639974]
 
 # français
 
@@ -147,17 +147,17 @@ Robert Cohn était une fois champion de boxe des poids moyens de Princeton. N'im
 
 [count=121, duration=0:01:36.863078, tps=1.25, seed=774639974]
 
-## llama3.1:8b-instruct-q4_K_M
-
-Robert Cohn était à un moment donné le champion poids moyen de boxe de Princeton. Ne pensez pas que je sois très impressionné par ce titre de boxe, mais il signifiait beaucoup pour Cohn. Il n'avait rien en compte pour la boxe, en fait, il la détestait, mais il l'a appris douloureusement et de manière exhaustive pour combattre le sentiment d'infériorité et de timidité qu'il avait ressenti à être traité comme un Juif à Princeton.
-
-[count=117, duration=0:01:03.794696, tps=1.83, seed=774639974]
-
 ## llama3.1:8b-instruct-q4_K_S
 
 Robert Cohn fut un jour champion poids mi-lourd de boxe à Princeton. N'imaginez pas que je sois très impressionné par ce titre de boxe, mais il signifiait beaucoup pour Cohn. Il ne s'intéressait aucunement à la boxe, en réalité il la détestait, mais il l'a apprise douloureusement et en profondeur pour contrebalancer le sentiment d'infériorité et de timidité qu'il avait ressenti lorsqu'on lui faisait savoir qu'il était juif à Princeton.
 
 [count=123, duration=0:01:03.761750, tps=1.93, seed=774639974]
+
+## llama3.1:8b-instruct-q4_K_M
+
+Robert Cohn était à un moment donné le champion poids moyen de boxe de Princeton. Ne pensez pas que je sois très impressionné par ce titre de boxe, mais il signifiait beaucoup pour Cohn. Il n'avait rien en compte pour la boxe, en fait, il la détestait, mais il l'a appris douloureusement et de manière exhaustive pour combattre le sentiment d'infériorité et de timidité qu'il avait ressenti à être traité comme un Juif à Princeton.
+
+[count=117, duration=0:01:03.794696, tps=1.83, seed=774639974]
 
 ## mistral-nemo:12b-instruct-2407-q4_0
 
@@ -165,17 +165,17 @@ Robert Cohen était autrefois champion poids moyens de boxe à l'université de 
 
 [count=100, duration=0:01:57.373110, tps=0.85, seed=774639974]
 
-## mistral-nemo:12b-instruct-2407-q4_K_M
-
-Robert Cohen était autrefois champion de boxe middleweight de Princeton. Ne croyez pas que je sois très impressionné par ce titre de boxe, mais cela signifiait beaucoup pour Cohen. Il se moquait de la boxe, en fait il la détestait, mais il l'a apprise douloureusement et à fond pour contrer le sentiment d'infériorité et de timidité qu'il avait ressenti en étant traité en tant que juif à Princeton.
-
-[count=95, duration=0:01:16.277220, tps=1.25, seed=774639974]
-
 ## mistral-nemo:12b-instruct-2407-q4_K_S
 
 Robert Cohen était autrefois champion de boxe mi-lourd de Princeton. Ne croyez pas que cela m'impressionne vraiment en tant que titre de boxe, mais cela signifiait beaucoup pour Cohen. Il se moquait complètement de la boxe, en fait il la détestait, mais il l'a apprise difficilement et à fond pour contrecarrer le sentiment d'infériorité et de timidité qu'il avait ressenti en étant traité en tant que juif à Princeton.
 
 [count=98, duration=0:01:13.592395, tps=1.33, seed=774639974]
+
+## mistral-nemo:12b-instruct-2407-q4_K_M
+
+Robert Cohen était autrefois champion de boxe middleweight de Princeton. Ne croyez pas que je sois très impressionné par ce titre de boxe, mais cela signifiait beaucoup pour Cohen. Il se moquait de la boxe, en fait il la détestait, mais il l'a apprise douloureusement et à fond pour contrer le sentiment d'infériorité et de timidité qu'il avait ressenti en étant traité en tant que juif à Princeton.
+
+[count=95, duration=0:01:16.277220, tps=1.25, seed=774639974]
 
 # 日本語
 
