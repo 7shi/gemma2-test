@@ -3,40 +3,52 @@ import common
 with open("hemingway.txt", "r") as f:
     text = f.read().strip()
 
-seeds = [
-    774639974, 605964979, 791356739, 884201550,
-    704099149, 660951710, 316156925, 118588328
-]
+seed = 774639974
 
-it = iter(seeds)
-for lang in ["日本語", "フランス語"]:
-    print()
-    print("#", lang)
-    messages = [{ "role": "user", "content": f"{lang}に翻訳してください：{text}" }]
-    for model in common.models:
+def query(*prompts):
+    for lang, prompt in prompts:
         print()
-        print("##", model)
-        print()
-        common.query(model, messages, seed=next(it))
+        print("#", lang)
+        messages = [{ "role": "user", "content": prompt + "\n" + text }]
+        for model in models:
+            print()
+            print("##", model)
+            print()
+            common.query(model, messages, seed=seed)
 
-it = iter(seeds)
-for lang in ["Japanese", "French"]:
-    print()
-    print("#", lang)
-    messages = [{ "role": "user", "content": f"Translate into {lang}:{text}" }]
-    for model in common.models:
-        print()
-        print("##", model)
-        print()
-        common.query(model, messages, seed=next(it))
+models = """
+gemma2:2b-instruct-q4_0
+gemma2:2b-instruct-q4_K_S
+gemma2:2b-instruct-q4_K_M
+gemma2:2b-instruct-q8_0
+gemma2:9b-instruct-q4_0
+gemma2:9b-instruct-q4_K_S
+gemma2:9b-instruct-q4_K_M
+llama3.1:8b-instruct-q4_0
+llama3.1:8b-instruct-q4_K_M
+llama3.1:8b-instruct-q4_K_S
+mistral-nemo:12b-instruct-2407-q4_0
+mistral-nemo:12b-instruct-2407-q4_K_M
+mistral-nemo:12b-instruct-2407-q4_K_S
+"""[1:-1].split("\n")
 
-it = iter(seeds)
-for lang in ["japonais", "français"]:
-    print()
-    print("#", lang)
-    messages = [{ "role": "user", "content": f"Traduisez en {lang}:{text}" }]
-    for model in common.models:
-        print()
-        print("##", model)
-        print()
-        common.query(model, messages, seed=next(it))
+query(
+    ("日本語", "日本語に翻訳してください："),
+    ("français", "Traduisez en français:"),
+)
+
+models = """
+gemma2:2b-instruct-q8_0
+gemma2:9b-instruct-q4_K_M
+llama3.1:8b-instruct-q4_K_M
+mistral-nemo:12b-instruct-2407-q4_K_M
+"""[1:-1].split("\n")
+
+query(
+    ("日本語", "日本語に翻訳してください："),
+    ("Japanese", "Translate into Japanese:"),
+    ("japonais", "Traduisez en japonais:"),
+    ("フランス語", "フランス語に翻訳してください："),
+    ("French", "Translate into French:"),
+    ("français", "Traduisez en français:"),
+)
