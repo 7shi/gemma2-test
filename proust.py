@@ -22,12 +22,22 @@ mistral-nemo:12b-instruct-2407-q4_K_S
 mistral-nemo:12b-instruct-2407-q4_K_M
 """[1:-1].split("\n")
 
-messages = [{ "role": "user", "content": "Translate into English:\n" + text }]
+prompts = [
+    ("日本語", "日本語に翻訳してください："),
+    #("Japanese", "Translate into Japanese:"),
+    ("English", "Translate into English:"),
+]
 
 with common.Tee(f"{fn}.md"):
-    common.print_contents(messages)
-    for model in models:
+    for i, (lang, prompt) in enumerate(prompts):
+        if i:
+            print()
+        print("#", lang)
+        messages = [{ "role": "user", "content": prompt + "\n" + text }]
         print()
-        print("##", model)
-        print()
-        common.query(model, messages, seed=seed)
+        common.print_contents(messages)
+        for model in models:
+            print()
+            print("##", model)
+            print()
+            common.query(model, messages, seed=seed)
