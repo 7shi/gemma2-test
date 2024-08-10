@@ -8,14 +8,6 @@ prompt = "Translate into English with a breakdown:\n"
 messages = [
     { "role": "user", "content": prompt + "\n".join(inferno1[:3]) },
     { "role": "assistant", "content": """
-**English translation:**
-
-```
-In the middle of the journey of our life
-I found myself within a dark forest,
-because the straight way was lost.
-```
-
 **Breakdown:**
 
 * **Nel mezzo del cammin di nostra vita:** In the middle of the journey of our life
@@ -31,6 +23,14 @@ because the straight way was lost.
     * **ché:** because
     * **la diritta via:** the straight way
     * **era smarrita:**  was lost
+
+**English translation:**
+
+```
+In the middle of the journey of our life
+I found myself within a dark forest,
+because the straight way was lost.
+```
 """.strip() },
     { "role": "user", "content": "" },
 ]

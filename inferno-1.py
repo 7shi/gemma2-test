@@ -1,7 +1,7 @@
 import common
 
 messages = [{ "role": "user", "content": """
-Translate into English with a breakdown:
+Break down and translate into English:
 Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,
 ché la diritta via era smarrita.
