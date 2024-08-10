@@ -1,17 +1,25 @@
 import common
 
-with open("hemingway.txt", "r") as f:
+fn = common.filename(__file__)
+
+with open(f"{fn}.txt", "r") as f:
     text = f.read().strip()
 
 seed = 774639974
 
+first = True
 def query(*prompts):
+    global first
     for lang, prompt in prompts:
-        print()
+        if first:
+            first = False
+        else:
+            print()
         print("#", lang)
         messages = [{ "role": "user", "content": prompt + "\n" + text }]
         print()
         common.print_contents(messages)
+        continue
         for model in models:
             print()
             print("##", model)
@@ -34,18 +42,18 @@ mistral-nemo:12b-instruct-2407-q4_K_S
 mistral-nemo:12b-instruct-2407-q4_K_M
 """[1:-1].split("\n")
 
-query(
-    ("日本語", "日本語に翻訳してください："),
-    ("français", "Traduisez en français:"),
-)
+with common.Tee(f"{fn}.md"):
+    query(
+        ("日本語", "日本語に翻訳してください："),
+        ("français", "Traduisez en français:"),
+    )
 
-models = common.models
-
-query(
-    ("日本語", "日本語に翻訳してください："),
-    ("Japanese", "Translate into Japanese:"),
-    ("japonais", "Traduisez en japonais:"),
-    ("フランス語", "フランス語に翻訳してください："),
-    ("French", "Translate into French:"),
-    ("français", "Traduisez en français:"),
-)
+    models = common.models
+    query(
+        ("日本語", "日本語に翻訳してください："),
+        ("Japanese", "Translate into Japanese:"),
+        ("japonais", "Traduisez en japonais:"),
+        ("フランス語", "フランス語に翻訳してください："),
+        ("French", "Translate into French:"),
+        ("français", "Traduisez en français:"),
+    )

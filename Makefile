@@ -5,11 +5,9 @@ TARGETS = $(SOURCES:.py=.md)
 all: $(TARGETS)
 
 %.md: %.py
-	time script -c "python $<"
-	tr -d '\r' < typescript | tail -n +3 | head -n -2 > $@
-	rm -f typescript
+	python $<
 
 clean:
-	rm -f typescript $(TARGETS)
+	rm -f $(TARGETS)
 
 .PHONY: all clean

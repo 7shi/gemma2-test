@@ -1,6 +1,7 @@
 import common
 
-with open("proust.txt", "r") as f:
+fn = common.filename(__file__)
+with open(f"{fn}.txt", "r") as f:
     text = f.read().strip()
 
 seed = 12345
@@ -23,11 +24,10 @@ mistral-nemo:12b-instruct-2407-q4_K_M
 
 messages = [{ "role": "user", "content": "Translate into English:\n" + text }]
 
-print()
-common.print_contents(messages)
-
-for model in models:
-    print()
-    print("##", model)
-    print()
-    common.query(model, messages, seed=seed)
+with common.Tee(f"{fn}.md"):
+    common.print_contents(messages)
+    for model in models:
+        print()
+        print("##", model)
+        print()
+        common.query(model, messages, seed=seed)

@@ -1,6 +1,7 @@
 import common
 
-with open("inferno-2.txt", "r") as f:
+fn = common.filename(__file__)
+with open(f"{fn}.txt", "r") as f:
     inferno1 = f.read().strip().split("\n")
 
 prompt = "Translate into English with a breakdown:\n"
@@ -50,18 +51,17 @@ seeds = iter([
     165123746, 83518692, 151223161, 197674250,
 ])
 
-print()
-common.print_contents(messages[:-1])
-
-for lnum in range(0, len(inferno1), 3):
-    print()
-    print("#", lnum + 1)
-    lines = "\n".join(inferno1[lnum:lnum+3])
-    messages[-1]["content"] = prompt + lines
-    print()
-    common.print_contents(messages[-1:])
-    for model in common.models:
+with common.Tee(f"{fn}.md"):
+    common.print_contents(messages[:-1])
+    for lnum in range(0, len(inferno1), 3):
         print()
-        print("##", model)
+        print("#", lnum + 1)
+        lines = "\n".join(inferno1[lnum:lnum+3])
+        messages[-1]["content"] = prompt + lines
         print()
-        common.query(model, messages, seed=next(seeds))
+        common.print_contents(messages[-1:])
+        for model in common.models:
+            print()
+            print("##", model)
+            print()
+            common.query(model, messages, seed=next(seeds))

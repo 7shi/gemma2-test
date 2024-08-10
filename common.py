@@ -1,4 +1,4 @@
-import ollama, random
+import ollama, random, os, sys
 from datetime import timedelta
 
 models = """
@@ -84,3 +84,33 @@ def print_contents(messages):
         elif i < len(messages) - 1:
             print()
             print("----")
+
+def filename(path):
+    return os.path.splitext(path)[0]
+
+class Tee:
+    def __init__(self, filename=None):
+        self.file = open(filename, "w") if filename else None
+        self._stdout = sys.stdout
+
+    def write(self, obj):
+        if self.file:
+            self.file.write(obj)
+        self._stdout.write(obj)
+
+    def flush(self):
+        if self.file:
+            self.file.flush()
+        self._stdout.flush()
+
+    def close(self):
+        if self.file:
+            self.file.close()
+
+    def __enter__(self):
+        sys.stdout = self
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        sys.stdout = self._stdout
+        self.close()

@@ -25,14 +25,13 @@ seeds = iter([
     70771379, 122945003, 871140356,
 ])
 
-print()
-common.print_contents(messages)
-
-for model in common.models:
-    print()
-    print("#", model)
-    for i in range(3):
+with common.Tee(common.filename(__file__) + ".md"):
+    common.print_contents(messages)
+    for model in common.models:
         print()
-        print("##", i + 1)
-        print()
-        common.query(model, messages, seed=next(seeds))
+        print("#", model)
+        for i in range(3):
+            print()
+            print("##", i + 1)
+            print()
+            common.query(model, messages, seed=next(seeds))

@@ -32,18 +32,17 @@ seeds = iter([
     541873174, 785152001, 7663002,
 ])
 
-print()
-common.print_contents(messages)
-
-for model in common.models:
-    print()
-    print("#", model)
-    for i in range(3):
+with common.Tee(common.filename(__file__) + ".md"):
+    common.print_contents(messages)
+    for model in common.models:
         print()
-        print("##", i + 1)
-        print()
-        print("```json")
-        _, chunks = common.stream(model, messages, "json", next(seeds))
-        print("```")
-        print()
-        common.show(chunks[-1])
+        print("#", model)
+        for i in range(3):
+            print()
+            print("##", i + 1)
+            print()
+            print("```json")
+            _, chunks = common.stream(model, messages, "json", next(seeds))
+            print("```")
+            print()
+            common.show(chunks[-1])
