@@ -10,6 +10,6 @@ all: $(TARGETS)
 	rm -f typescript
 
 clean:
-	rm -f typescript
+	rm -f typescript $(TARGETS)
 
 .PHONY: all clean
