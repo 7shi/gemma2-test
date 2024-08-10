@@ -1,4 +1,4 @@
-# gemma2:2b-instruct-q4_K_M
+# gemma2:2b-instruct-q8_0
 
 ## 1
 
@@ -7,19 +7,17 @@
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous aimez cette période.",
   "breakdown": [
-    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "third person singular present indicative" },
-    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "demonstrative pronoun", "description": "feminine singular" },
-    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "masculine singular" },
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "present tense, imperative form" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "pronoun", "description": "possessive adjective" },
+    { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférez", "meaning": "favorite", "lemma": "préféré", "part": "adjective", "description": "masculine singular,  used as an adjective" },
     { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
-    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "third person singular present indicative" },
-    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "feminine plural" },
-    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "third person singular present indicative" } 
-  ]
-}
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "present tense, imperative form" }
+  ] 
+} 
 ```
 
-[count=350, duration=0:01:16.684154, tps=4.56, seed=262006003]
+[count=286, duration=0:01:14.920322, tps=3.82, seed=262006003]
 
 ## 2
 
@@ -28,19 +26,20 @@
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "present tense, active voice" },
-    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "adjective-modifier", "description": "masculine singular" },
+    { "fr": "Décrivez", "meaning": "describe", "lemma": "décrire", "part": "verb", "description": "present tense, imperative mood" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": ""},
     { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" },
+    { "fr": "préférées", "meaning": "favorite", "lemma": "préférence", "part": "adjective", "description": ""},
     { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" },
-    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "present tense, active voice" },
-    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": "" },
-    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "masculine plural" },
-    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "present tense, active voice" } 
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "present tense, imperative mood" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "adverb", "description": ""},
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "third person plural" },
+    { "fr": "l'aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "present tense, third person singular" }
   ]
-}
+} 
 ```
 
-[count=351, duration=0:01:16.975465, tps=4.56, seed=310331335]
+[count=386, duration=0:01:44.139180, tps=3.71, seed=310331335]
 
 ## 3
 
@@ -49,19 +48,19 @@
   "en": "Describe your favorite season and explain why you like it.",
   "fr": "Décrivez votre saison préférée et expliquez pourquoi vous l'aimez.",
   "breakdown": [
-    { "fr": "Décrivez", "meaning": "Describe", "lemma": "décrire", "part": "verb", "description": "third person singular present indicative" },
-    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "personal possessive adjective", "description": "masculine singular" },
+    { "fr": "Décrivez", "meaning": "Describe", "lemma": "décrire", "part": "verb", "description": "present tense indicative, imperative form, informal" },
+    { "fr": "votre", "meaning": "your", "lemma": "votre", "part": "possessive adjective", "description": "masculine singular" },
     { "fr": "saison", "meaning": "season", "lemma": "saison", "part": "noun", "description": "feminine singular" }, 
-    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": "" }, 
-    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "third person singular present indicative" },
-    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "conjunction", "description": "" }, 
-    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "masculine plural" },
-    { "fr": "l'aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "third person singular present indicative" } 
+    { "fr": "et", "meaning": "and", "lemma": "et", "part": "conjunction", "description": ""},
+    { "fr": "expliquez", "meaning": "explain", "lemma": "expliquer", "part": "verb", "description": "present tense indicative, imperative form, informal" },
+    { "fr": "pourquoi", "meaning": "why", "lemma": "pourquoi", "part": "interjection", "description": ""},
+    { "fr": "vous", "meaning": "you", "lemma": "vous", "part": "pronoun", "description": "singular, formal" },
+    { "fr": "aimez", "meaning": "like", "lemma": "aimer", "part": "verb", "description": "present tense indicative, imperative form, informal" } 
   ]
-} 
+}
 ```
 
-[count=357, duration=0:01:18.691625, tps=4.54, seed=704363529]
+[count=362, duration=0:01:39.984435, tps=3.62, seed=704363529]
 
 # gemma2:9b-instruct-q4_K_M
 
@@ -85,7 +84,7 @@
 }
 ```
 
-[count=395, duration=0:05:01.329878, tps=1.31, seed=234934443]
+[count=395, duration=0:05:07.622822, tps=1.28, seed=234934443]
 
 ## 2
 
@@ -107,7 +106,7 @@
 } 
 ```
 
-[count=391, duration=0:05:01.090899, tps=1.30, seed=929345705]
+[count=391, duration=0:05:03.132868, tps=1.29, seed=929345705]
 
 ## 3
 
@@ -183,7 +182,7 @@
 }
 ```
 
-[count=497, duration=0:06:25.345191, tps=1.29, seed=25910753]
+[count=497, duration=0:06:34.928594, tps=1.26, seed=25910753]
 
 # llama3.1:8b-instruct-q4_K_M
 
@@ -210,7 +209,7 @@
 }
 ```
 
-[count=383, duration=0:03:40.143665, tps=1.74, seed=268805974]
+[count=383, duration=0:03:45.417091, tps=1.70, seed=268805974]
 
 ## 2
 
@@ -232,7 +231,7 @@
 }
 ```
 
-[count=396, duration=0:03:53.140665, tps=1.70, seed=58049255]
+[count=396, duration=0:03:55.483257, tps=1.68, seed=58049255]
 
 ## 3
 
@@ -254,7 +253,7 @@
 }
 ```
 
-[count=406, duration=0:03:54.116316, tps=1.73, seed=21594096]
+[count=406, duration=0:04:03.764767, tps=1.67, seed=21594096]
 
 # mistral-nemo:12b-instruct-2407-q4_K_M
 
@@ -332,7 +331,7 @@
 }
 ```
 
-[count=458, duration=0:06:49.032946, tps=1.12, seed=541873174]
+[count=458, duration=0:06:34.443359, tps=1.16, seed=541873174]
 
 ## 2
 
@@ -354,7 +353,7 @@
 }
 ```
 
-[count=406, duration=0:05:52.970035, tps=1.15, seed=785152001]
+[count=406, duration=0:05:51.668334, tps=1.15, seed=785152001]
 
 ## 3
 
@@ -376,4 +375,4 @@
 }
 ```
 
-[count=397, duration=0:05:50.716256, tps=1.13, seed=7663002]
+[count=397, duration=0:05:44.372313, tps=1.15, seed=7663002]

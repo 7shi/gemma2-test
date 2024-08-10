@@ -2,7 +2,7 @@ import ollama, random
 from datetime import timedelta
 
 models = """
-gemma2:2b-instruct-q4_K_M
+gemma2:2b-instruct-q8_0
 gemma2:9b-instruct-q4_K_M
 llama3.1:8b-instruct-q4_K_M
 mistral-nemo:12b-instruct-2407-q4_K_M
