@@ -1,6 +1,38 @@
+```
+Translate into English with a breakdown:
+Nel mezzo del cammin di nostra vita
+mi ritrovai per una selva oscura,
+ché la diritta via era smarrita.
+```
+
+**Breakdown:**
+
+* **Nel mezzo del cammin di nostra vita:** In the middle of the journey of our life
+    * **Nel mezzo:** In the middle
+    * **del cammin:** of the journey
+    * **di nostra vita:** of our life
+* **mi ritrovai per una selva oscura:** I found myself within a dark forest.
+    * **mi ritrovai:**  I found myself
+    * **per una selva oscura:** within a dark forest
+        * **selva:**  wood, forest
+        * **oscura:** dark
+* **ché la diritta via era smarrita:** because the straight way was lost.
+    * **ché:** because
+    * **la diritta via:** the straight way
+    * **era smarrita:**  was lost
+
+**English translation:**
+
+```
+In the middle of the journey of our life
+I found myself within a dark forest,
+because the straight way was lost.
+```
+
 # 1
 
 ```
+Translate into English with a breakdown:
 Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,
 ché la diritta via era smarrita.
@@ -142,6 +174,7 @@ because I had lost the straight way.
 # 4
 
 ```
+Translate into English with a breakdown:
 Ahi quanto a dir qual era è cosa dura
 esta selva selvaggia e aspra e forte
 che nel pensier rinova la paura!
@@ -284,6 +317,7 @@ rough, and harsh forest that in thought renews the fear!
 # 7
 
 ```
+Translate into English with a breakdown:
 Tant’ è amara che poco è più morte;
 ma per trattar del ben ch’i’ vi trovai,
 dirò de l’altre cose ch’i’ v’ho scorte.
@@ -419,6 +453,7 @@ I will tell of the other things I saw there.
 # 10
 
 ```
+Translate into English with a breakdown:
 Io non so ben ridir com’ i’ v’intrai,
 tant’ era pien di sonno a quel punto
 che la verace via abbandonai.
@@ -555,6 +590,7 @@ because I left the true way.
 # 13
 
 ```
+Translate into English with a breakdown:
 Ma poi ch’i’ fui al piè d’un colle giunto,
 là dove terminava quella valle
 che m’avea di paura il cor compunto,
@@ -705,6 +741,7 @@ where that valley ended which had filled my heart with fear.
 # 16
 
 ```
+Translate into English with a breakdown:
 guardai in alto e vidi le sue spalle
 vestite già de’ raggi del pianeta
 che mena dritto altrui per ogne calle.
@@ -848,6 +885,7 @@ I looked up and saw his shoulders already covered with the rays of the planet th
 # 19
 
 ```
+Translate into English with a breakdown:
 Allor fu la paura un poco queta,
 che nel lago del cor m’era durata
 la notte ch’i’ passai con tanta pieta.
@@ -992,6 +1030,7 @@ which had lasted in the lake of my heart throughout the night that I spent with 
 # 22
 
 ```
+Translate into English with a breakdown:
 E come quei che con lena affannata,
 uscito fuor del pelago a la riva,
 si volge a l’acqua perigliosa e guata,
@@ -1146,6 +1185,7 @@ they turn back to look at the perilous water.
 # 25
 
 ```
+Translate into English with a breakdown:
 così l’animo mio, ch’ancor fuggiva,
 si volse a retro a rimirar lo passo
 che non lasciò già mai persona viva.
@@ -1293,6 +1333,7 @@ that no one alive has ever left.
 # 28
 
 ```
+Translate into English with a breakdown:
 Poi ch’èi posato un poco il corpo lasso,
 ripresi via per la piaggia diserta,
 sì che ’l piè fermo sempre era ’l più basso.
@@ -1447,6 +1488,7 @@ so that my foot was always the lowest.
 # 31
 
 ```
+Translate into English with a breakdown:
 Ed ecco, quasi al cominciar de l’erta,
 una lonza leggera e presta molto,
 che di pel macolato era coverta;
@@ -1577,6 +1619,7 @@ a light and swift hare appeared, covered with spotted fur.
 # 34
 
 ```
+Translate into English with a breakdown:
 e non mi si partia dinanzi al volto,
 anzi ’mpediva tanto il mio cammino,
 ch’i’ fui per ritornar più volte vòlto.

@@ -23,8 +23,11 @@ mistral-nemo:12b-instruct-2407-q4_K_M
 
 messages = [{ "role": "user", "content": "Translate into English:\n" + text }]
 
+print()
+common.print_contents(messages)
+
 for model in models:
     print()
-    print("#", model)
+    print("##", model)
     print()
     common.query(model, messages, seed=seed)

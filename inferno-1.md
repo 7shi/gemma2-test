@@ -1,3 +1,10 @@
+```
+Break down and translate into English:
+Nel mezzo del cammin di nostra vita
+mi ritrovai per una selva oscura,
+ché la diritta via era smarrita.
+```
+
 # gemma2:2b-instruct-q8_0
 
 ## 1

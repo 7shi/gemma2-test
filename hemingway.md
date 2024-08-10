@@ -1,5 +1,10 @@
 # 日本語
 
+```
+日本語に翻訳してください：
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
+
 ## gemma2:2b-instruct-q4_0
 
 ロバート・コーンは、Princetonの中級階級のボクシングチャンピオンだった。ボクシングのタイトルに非常に大きな印象を与えられているわけではないかもしれませんが、Cohnにとっては重要な意味を持っていた。彼はボクシングを全く興味を持っていなかったと言えますが、むしろ嫌っていました。しかし、貧弱さと臆病さ（Princetonでのユダヤ人扱いによる）から克服するために、Cohnは苦しみながら徹底的にボクシングを学んだ。 
@@ -99,6 +104,11 @@ Overall, the translation aims for clarity while preserving the tone and meaning 
 
 # français
 
+```
+Traduisez en français:
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
+
 ## gemma2:2b-instruct-q4_0
 
 Robert Cohn était autrefois champion du poids moyen dans la boxe de Princeton. Ne pensez pas que cela m'impressionne beaucoup comme une distinction de boxe, mais ça signifiait quelque chose pour Cohn. Il n'était absolument pas intéressé par la boxe, et il détestait même ce sport, mais il a appris à la pratiquer avec précision et avec force pour contrer le sentiment d'infériorité et de timidité qu'il ressentait en étant traité comme un juif à Princeton. 
@@ -179,6 +189,11 @@ Robert Cohen était autrefois champion de boxe middleweight de Princeton. Ne cro
 
 # 日本語
 
+```
+日本語に翻訳してください：
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
+
 ## gemma2:2b-instruct-q8_0
 
 ロバート・コーンはPrincetonのミドル級ボクシングチャンピオンだった。ボクシングタイトルにそれほど impressed されなくてもいいと思うが、それは彼にとって大切な意味を持っていた。彼はボクシングを全く興味を持たなかったし、むしろ嫌いだったが、それを苦しみと徹底的に学ぶことで、Princetonでユダヤ人として扱われたと感じさせる劣等感やshy ness を打ち消すために努力した。 
@@ -204,6 +219,11 @@ Robert Cohen était autrefois champion de boxe middleweight de Princeton. Ne cro
 [count=112, duration=0:01:30.519120, tps=1.24, seed=774639974]
 
 # Japanese
+
+```
+Translate into Japanese:
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
 
 ## gemma2:2b-instruct-q8_0
 
@@ -256,6 +276,11 @@ Let me know if you have any other translations you'd like me to do!
 
 # japonais
 
+```
+Traduisez en japonais:
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
+
 ## gemma2:2b-instruct-q8_0
 
 ロバート・コーンは、プリンシ ton でミドル級ボクシングチャンピオンだった。ボクシングのタイトルそのものに非常に impressed されているわけではありませんが、コーンにとっては非常に大切なものでした。彼はボクシングを全く嫌い、むしろ嫌っていたのですが、自分自身に劣等感やshy ness があると感じていたために、このボクシングを痛々しく、徹底的に学びました。これは、プリンシ ton でユダヤ人として扱われることを受け入れるためのものです。 
@@ -305,6 +330,11 @@ Let me know if you have any other text you'd like me to translate!
 
 # フランス語
 
+```
+フランス語に翻訳してください：
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
+
 ## gemma2:2b-instruct-q8_0
 
 Robert Cohn était autrefois champion du poids welter de l'université de Princeton. Je ne pense pas que cela me fascine particulièrement comme titre de boxe, mais cela avait un sens particulier pour Cohn. Il n'avait aucun intérêt pour le boxe, en fait, il l'aimait moins, mais il a appris à le faire douloureusement et avec persévérance pour contrer la sensation d'infériorité et de timidité qu'il ressentait après avoir été traité comme juif à Princeton. 
@@ -331,6 +361,11 @@ Robert Cohn a été autrefois champion poids moyens de boxe à l'université de 
 [count=111, duration=0:01:30.922395, tps=1.22, seed=774639974]
 
 # French
+
+```
+Translate into French:
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
 
 ## gemma2:2b-instruct-q8_0
 
@@ -359,6 +394,11 @@ Remarque : J'ai utilisé "Cohen" au lieu de "Cohn" car c'est ainsi que ce nom es
 [count=127, duration=0:01:43.821395, tps=1.22, seed=774639974]
 
 # français
+
+```
+Traduisez en français:
+Robert Cohn was once middleweight boxing champion of Princeton. Do not think that I am very much impressed by that as a boxing title, but it meant a lot to Cohn. He cared nothing for boxing, in fact he disliked it, but he learned it painfully and thoroughly to counteract the feeling of inferiority and shyness he had felt on being treated as a Jew at Princeton.
+```
 
 ## gemma2:2b-instruct-q8_0
 

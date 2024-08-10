@@ -12,6 +12,9 @@ seeds = iter([
     992012649, 527118300, 460533073,
 ])
 
+print()
+common.print_contents(messages)
+
 for model in common.models:
     print()
     print("#", model)

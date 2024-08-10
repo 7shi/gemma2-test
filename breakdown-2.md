@@ -1,3 +1,21 @@
+```
+Translate into French with a breakdown:
+The world is full of beauty.
+```
+
+Le monde est plein de beauté.
+
+* Le monde: The world
+* est: is
+* plein de beauté: full of beauty
+
+----
+
+```
+Translate into French with a breakdown:
+Describe your favorite season and explain why you like it.
+```
+
 # gemma2:2b-instruct-q8_0
 
 ## 1

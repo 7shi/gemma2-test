@@ -1,3 +1,8 @@
+```
+Translate into French with a breakdown:
+The world is full of beauty.
+```
+
 # gemma2:2b-instruct-q8_0
 
 ## 1

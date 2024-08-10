@@ -50,15 +50,16 @@ seeds = iter([
     165123746, 83518692, 151223161, 197674250,
 ])
 
+print()
+common.print_contents(messages[:-1])
+
 for lnum in range(0, len(inferno1), 3):
     print()
     print("#", lnum + 1)
-    print()
     lines = "\n".join(inferno1[lnum:lnum+3])
-    print("```")
-    print(lines)
-    print("```")
     messages[-1]["content"] = prompt + lines
+    print()
+    common.print_contents(messages[-1:])
     for model in common.models:
         print()
         print("##", model)

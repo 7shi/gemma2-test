@@ -71,3 +71,16 @@ def read_seeds(filename):
     import re
     with open(filename, "r") as f:
         return [int(m) for m in re.findall(r"seed=(\d+)", f.read())]
+
+def print_contents(messages):
+    for i, m in enumerate(messages):
+        if i:
+            print()
+        if m["role"] == "user":
+            print("```")
+        print(m["content"])
+        if m["role"] == "user":
+            print("```")
+        elif i < len(messages) - 1:
+            print()
+            print("----")

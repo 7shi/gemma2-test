@@ -10,6 +10,8 @@ def query(*prompts):
         print()
         print("#", lang)
         messages = [{ "role": "user", "content": prompt + "\n" + text }]
+        print()
+        common.print_contents(messages)
         for model in models:
             print()
             print("##", model)
