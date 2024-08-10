@@ -2,8 +2,8 @@ import common
 
 with open("proust.txt", "r") as f:
     text = f.read().strip()
-messages = [{ "role": "user", "content": "Translate into English:\n" + text }]
-seed = 144350804
+
+seed = 12345
 
 models = """
 gemma2:2b-instruct-q4_0
@@ -20,6 +20,8 @@ mistral-nemo:12b-instruct-2407-q4_0
 mistral-nemo:12b-instruct-2407-q4_K_S
 mistral-nemo:12b-instruct-2407-q4_K_M
 """[1:-1].split("\n")
+
+messages = [{ "role": "user", "content": "Translate into English:\n" + text }]
 
 for model in models:
     print()
